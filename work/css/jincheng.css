@@ -1,0 +1,169 @@
+*{
+	margin:0;
+	padding: 0;
+}
+@font-face{
+	font-family: "汉仪综艺体简";
+	src:url("../font/汉仪综艺体简.ttf");
+}
+
+
+body{
+	min-width:937px;
+	width:100%;
+	height: 100%;
+	background: url(../image/background.png) no-repeat;
+	background-size: cover;
+}
+
+.header{
+	width:100%;
+	height: 30%;
+	background-color:#393836;
+}
+.weizhi{
+	margin-top:3%;
+}
+.section{
+	position:relative;
+	width:100%;
+	height:60%;
+
+}
+ul{
+	display:inline-block;
+	width:100%;
+	padding: 1% 0;
+	background: #dbd8d4;
+}
+ul li{
+	display:inline-block;
+	width:14%;
+	height:5%;
+	float:left;
+	background: #dbd8d4;
+	list-style: none;
+	text-align: center;
+	border-left:1px solid #b1153a;
+
+}
+ul li a{
+	text-decoration: none;
+	color:#b1153a;
+	font-family:汉仪综艺体简;
+	font-size:15pt;
+}
+ul li a:hover{
+	border-bottom:1px solid #b1153a ;
+}
+.haixuan{
+	position: relative;
+	margin:0 auto;
+	width:234px;
+	height: 126px
+}
+
+.Lweizhi{
+	position: absolute;
+	top:9%;
+	left:-56%;
+	
+}
+.Rweizhi{
+	position: absolute;
+	top:7%;
+	left:70%;
+}
+.haixuan p{
+	display:block;
+	font-size:72pt;
+	color:#fff;
+	width:100%;
+	text-align: center;
+	margin-top:50%;
+	
+
+
+}
+.PObanner{
+	width:54%;
+	height: 45%;
+	margin:2% auto;
+}
+.Video{
+	position: absolute;
+	margin: 5% 12%;
+	width: 76%;
+	height:15%;
+	background: #393830;
+}
+.Lweizhi_1{
+	float: left;
+}
+.Rweizhi_1{
+	float: right;
+}
+.video_1{
+	position: absolute;
+	width: 11%;
+	height: 79%;
+	margin-top:2%;
+	margin-left: 17%;
+	background: url(../image/banner.png) no-repeat;
+	background-size: cover;
+}
+.video_2{
+	position: absolute;
+	width: 11%;
+	height: 79%;
+	margin-top:2%;
+	margin-left:31%;
+	background: #fff;
+	background-size: cover;
+	
+}
+.video_3{
+	position: absolute;
+	width: 11%;
+	height: 79%;
+	margin-top:2%;
+	margin-left: 45%;
+	background: #fff;
+	background-size: cover;
+	
+
+
+}
+.video_4{
+	position: absolute;
+	width: 11%;
+	height: 79%;
+	margin-top:2%;
+	margin-left: 58.8%;
+	background: #fff;;
+	background-size: cover;
+
+}
+.video_5{
+	position: absolute;
+	width: 11%;
+	height: 79%;
+	margin-top:2%;
+	margin-left: 73%;
+	background: #fff;
+	background-size: cover;
+
+}
+.footer{
+	margin-top:50%;
+	width:100%;
+	
+
+}
+
+.black{
+	width:100%;
+	padding:1.6% 0;
+	background-color:#393836;
+
+}

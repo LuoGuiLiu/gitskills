@@ -1,0 +1,90 @@
+<scroll-view scroll-y='true' scroll-with-animation='true' style="height:1290rpx;">
+  <view style="width:100%;height:80rpx;background:#61666c;">
+    <view style="width:50rpx;height:50rpx;margin-left:30rpx;">
+      <image class="IMG_size" src='/image/FastivalIMG/Map.png'></image>
+    </view>
+    <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+    <view class="picker">
+      {{region[0]}} {{region[1]}} {{region[2]}}
+    </view>
+  </picker>
+  </view>
+  <swiper indicator-dots='true' indicator-color='rgba(0,0,9,1)' indicator-active-color='#099' autoplay="true" interval='4000' duration='600' circular='true'>
+    <block wx:for="{{imgUrls}}" wx:key="unique" wx:for-index="id" wx:item="item">
+      <swiper-item>
+        <image src="{{item}}" style="width:100%;height:100%;"/>
+      </swiper-item>
+    </block>
+  </swiper>
+   <view style="width:100%;height:900rpx;margin-top:0rpx; background:url(/image/FastivalIMG/Screen.jpg);">
+   </view>
+
+
+<view>
+    <view style="width:700rpx;height:100rpx;margin:-900rpx auto;background:#fff;border-radius:20rpx; ">
+      <view style="width:40rpx;height:40rpx;">
+       <image src="/image/FastivalIMG/Search.jpg" class="IMGCover" style="margin-top:30rpx;margin-left:35rpx;"></image>
+       <view style='width:510rpx;height:80rpx;border-left:3rpx solid #cdcdcd;margin-top:-70rpx;margin-left:90rpx'>
+          <input type="text" style="position:relative;top:15rpx;margin-left:40rpx;"focus='true' value=''placeholder='想去哪玩' confirm-type='完成'/>
+       </view>
+      </view>
+    </view>
+
+
+    <view style="width:260rpx;height:100rpx;margin-top:920rpx;margin-left:25rpx;background:#fff;border-radius:20rpx; ">
+      <view style="width:81rpx;height:81rpx;">
+       <image src="/image/FastivalIMG/HeadImg.png" class="IMGCover" style="margin-top:10rpx;margin-left:15rpx;"></image>
+       <view style='width:510rpx;height:80rpx;border-left:3rpx solid #cdcdcd;margin-top:-90rpx;margin-left:90rpx'>
+          <input type="number" style="position:relative;top:15rpx;margin-left:40rpx;"focus='true' value=''placeholder='人数' confirm-type='完成'/>
+       </view>
+      </view>
+    </view>
+
+    <view style="width:400rpx;height:100rpx;margin-top:-100rpx;margin-left:325rpx;background:#fff;border-radius:20rpx; ">
+      <view style="width:40rpx;height:40rpx;">
+       <image src="/image/FastivalIMG/Data.jpg" class="IMGCover" style="margin-top:30rpx;margin-left:35rpx;"></image>
+       <view style='width:510rpx;height:80rpx;border-left:3rpx solid #cdcdcd;margin-top:-70rpx;margin-left:90rpx'>
+          <input type="number" style="position:relative;top:15rpx;margin-left:40rpx;"focus='true' value=''placeholder='出行天数' confirm-type='完成'/>
+       </view>
+      </view>
+    </view>
+
+    
+    <view style="width:700rpx;height:100rpx;margin:20rpx auto;background:#fff;border-radius:20rpx; ">
+      <view style="width:81rpx;height:81rpx;">
+       <image src="/image/FastivalIMG/Doll.png" class="IMGCover" style="margin-top:10rpx;margin-left:15rpx;"></image>
+       <view style='width:510rpx;height:80rpx;border-left:3rpx solid #cdcdcd;margin-top:-90rpx;margin-left:90rpx'>
+          <input type="text" style="position:relative;top:15rpx;margin-left:40rpx;"focus='true' value=''placeholder='无费用限制' confirm-type='完成'/>
+       </view>
+      </view>
+    </view>
+  </view>
+  <view>
+    <view style="margin-left:25rpx;">
+      <view style=" width:350rpx;height:350rpx;border-radius:20rpx;background:url(/image/FastivalIMG/Moutain.jpg);box-shadow: -8rpx 8rpx 20rpx #000;background-size:cover">
+      </view>
+      <view>
+        <text style="font-size:40rpx;margin-left:65rpx;position:relative;top:-210rpx;padding:10rpx 10rpx;;background:#110000;opacity:0.8;color:#fff;font-size:50rpx;">景点类型</text>
+      </view>
+    </view>
+
+    <view style="margin-left:430rpx;margin-top:-410rpx;">
+      <view style=" width:300rpx;height:160rpx;border-radius:20rpx;background:url(/image/FastivalIMG/Flower.jpg);box-shadow: -8rpx 8rpx 20rpx #000;background-size:cover">
+      </view>
+      <view>
+        <text style="font-weight:bold;font-size:40rpx;margin-left:50rpx;position:relative;top:-105rpx;padding:10rpx 60rpx;;background:#110000;opacity:0.8;color:#fff;font-size:40rpx;">季节</text>
+      </view>
+    </view>
+
+    <view style="margin-left:430rpx;margin-top:-30rpx;">
+      <view style=" width:300rpx;height:160rpx;border-radius:20rpx;background:url(/image/FastivalIMG/Flower.jpg);box-shadow: -8rpx 8rpx 20rpx #000;background-size:cover">
+      </view>
+      <view style="width:330rpx;height:80rpx">
+       <text style="font-weight:bold;font-size:40rpx;margin-left:30rpx;position:relative;top:-105rpx;padding:10rpx 40rpx;;background:#110000;opacity:0.8;color:#fff;font-size:40rpx;">风格路线</text>
+      </view>
+    </view>
+  </view>
+  <button style="width:200rpx;height:80rpx;background:#fff;border-radius:20rpx;margin:0 auto">
+    <text style="display:block;text-align:center;margin-top:-10rpx;font-size:40rpx;font-weight:bold">提交</text>
+  </button>
+</scroll-view>

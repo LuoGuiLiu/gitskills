@@ -1,0 +1,35 @@
+<!--pages/tunwen/tunwen.wxml-->
+<scroll-view scroll-y='true' style="height:600px;background:#d3d3d3" bindscroll='scroll' scroll-with-animation="true" scroll-top='{{scrollTo}}' >
+  <block wx:for="{{div}}" wx:key="unique" wx:for-index="id" wx:item="item" >
+    <view data-id="{{item.id}}"    
+          class="scroll_item {{item.selected ? 'selected':''}} View_mar" 
+          style="opacity:'{{changeopacity}}'" animation="{{animation}}" 
+          bindtouchend='Tolist' bindtap='anti_Tolist'>
+      <view class="imagesHeight">
+        <image class='image_size ' src='{{item.url}}'></image>
+      </view>
+      <view>
+        <view>
+          <text class="headertex">{{item.headertex}}</text>
+          <view style="margin-left:10rpx">
+            <image src='{{item.iconMap_url}}' style="width:{{Icon_Width}}rpx;height:{{Icon_Height}}rpx;"></image>
+            <text style="font-size:{{Tex_size}}rpx;display:block;margin-top:-42rpx;margin-left:30rpx;color:#a49e9e">{{item.iconMap_Tex}}</text>
+          </view>
+          <view  style="width:60rpx;height:30rpx;margin-left:350rpx;margin-top:-40rpx">
+            <image src='{{item.iconEye_url}}' style='width:{{Icon_Width}}rpx;height:{{Icon_Height}}rpx'></image>
+            <text style="display:block;margin-top:-40rpx;margin-left:35rpx;font-size:{{Tex_size}}rpx;color:#a49e9e">{{item.iconEye_Tex}}</text>
+          </view>
+          <view  style="width:60rpx;height:30rpx;margin-left:450rpx;margin-top:-30rpx">
+            <image src='{{item.iconNew_url}}' style='width:{{Icon_Width}}rpx;height:{{Icon_Height}}rpx'></image>
+            <text style="display:block;margin-top:-40rpx;margin-left:35rpx;font-size:{{Tex_size}}rpx;color:#a49e9e">{{item.iconNew_Tex}}</text>
+          </view>
+          <view  style="width:60rpx;height:30rpx;margin-left:550rpx;margin-top:-30rpx">
+            <image src='{{item.iconStar_url}}' style='width:{{Icon_Width}}rpx;height:{{Icon_Height}}rpx'></image>
+            <text style="display:block;margin-top:-40rpx;margin-left:35rpx;font-size:{{Tex_size}}rpx;color:#a49e9e">{{item.iconStar_Tex}}</text>
+          </view>
+        </view>
+      
+       </view>  
+    </view>
+  </block>
+</scroll-view>

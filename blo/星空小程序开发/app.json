@@ -1,0 +1,18 @@
+{
+  "pages":[
+    "pages/tuiwen/tuiwen",
+    "pages/Fastival/Fastival",
+    "pages/shoucang/shoucang",
+    "pages/SCWeb/SCWeb",
+    "pages/index/index",
+    "pages/logs/logs"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "乐不思蜀",
+    "navigationBarTextStyle":"black"
+    
+  }
+}

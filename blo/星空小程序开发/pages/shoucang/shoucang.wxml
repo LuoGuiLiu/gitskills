@@ -1,0 +1,59 @@
+<scroll-view scroll-y='true' style="height:600px;background:#e4e4e4"  scroll-with-animation="true" scroll-top='0' >
+    <view class="Box_size" animation="{{Sea_animationData}}">   
+      <view class="area" >
+        <image class='imgCover ' src='{{Seaurl}}'></image>
+      </view>
+      <view>
+        <rich-text class="Texmar">
+          <h class="Head">{{SeaHead}}</h>
+          <p class='Text'>{{SeaText}}</p>
+        </rich-text>
+         <view  style="width:60rpx;height:30rpx;margin-left:550rpx;">
+            <image src='{{IconStar_url}}' style='width:{{Icon_Width}}rpx;height:{{Icon_Height}}rpx'></image>
+            <text style="display:block;margin-top:-40rpx;margin-left:35rpx;font-size:{{Tex_size}}rpx;color:#a49e9e">{{IconBack_Tex}}</text>
+          </view>
+          <view  style="width:60rpx;height:30rpx;margin-left:650rpx;margin-top:-26rpx">
+            <image src='{{IconBack_url}}' style='width:{{Icon_Width}}rpx;height:{{Icon_Height}}rpx'></image>
+            <text style="display:block;margin-top:-44rpx;margin-left:35rpx;font-size:{{Tex_size}}rpx;color:#a49e9e">{{IconBack_Tex}}</text>
+          </view>
+      </view>
+    </view>
+    <view class="Box_size" animation="{{Food_animationData}}"> 
+     <view class="area" >
+        <image class='imgCover ' src='{{Foodurl}}'></image>
+      </view>
+      <view>
+        <rich-text class="Texmar">
+          <h class="Head">{{FoodHead}}</h>
+          <p class='Text'>{{FoodText}}</p>
+        </rich-text>
+         <view  style="width:60rpx;height:30rpx;margin-left:550rpx;">
+            <image src='{{IconStar_url}}' style='width:{{Icon_Width}}rpx;height:{{Icon_Height}}rpx'></image>
+            <text style="display:block;margin-top:-40rpx;margin-left:35rpx;font-size:{{Tex_size}}rpx;color:#a49e9e">{{IconBack_Tex}}</text>
+          </view>
+          <view  style="width:60rpx;height:30rpx;margin-left:650rpx;margin-top:-26rpx">
+            <image src='{{IconBack_url}}' style='width:{{Icon_Width}}rpx;height:{{Icon_Height}}rpx'></image>
+            <text style="display:block;margin-top:-44rpx;margin-left:35rpx;font-size:{{Tex_size}}rpx;color:#a49e9e">{{IconBack_Tex}}</text>
+          </view>
+      </view>
+    </view>
+    <view class="Box_size" animation="{{House_animationData}}"> 
+     <view class="area" >
+        <image class='imgCover ' src='{{Houseurl}}'></image>
+      </view>
+      <view>
+        <rich-text class="Texmar">
+          <h class="Head">{{HouseHead}}</h>
+          <p class='Text'>{{HouseText}}</p>
+        </rich-text>
+         <view  style="width:60rpx;height:30rpx;margin-left:550rpx;">
+            <image src='{{IconStar_url}}' style='width:{{Icon_Width}}rpx;height:{{Icon_Height}}rpx'></image>
+            <text style="display:block;margin-top:-40rpx;margin-left:35rpx;font-size:{{Tex_size}}rpx;color:#a49e9e">{{IconBack_Tex}}</text>
+          </view>
+          <view  style="width:60rpx;height:30rpx;margin-left:650rpx;margin-top:-26rpx">
+            <image src='{{IconBack_url}}' style='width:{{Icon_Width}}rpx;height:{{Icon_Height}}rpx'></image>
+            <text style="display:block;margin-top:-44rpx;margin-left:35rpx;font-size:{{Tex_size}}rpx;color:#a49e9e">{{IconBack_Tex}}</text>
+          </view>
+      </view>
+    </view>
+</scroll-view>

@@ -1,0 +1,46 @@
+<!--pages/SCWeb/SCWeb.wxml-->
+<scroll-view scroll-y='true' style="height:600px;background:#fff"  scroll-with-animation="true"  >
+    <view style="height:200rpx;;margin-top:70rpx;margin-left:40rpx;">
+      <rich-text>
+        <h style='font-size:40rpx;font-weight:bold;display:block;'>MY</h>
+        <h style='font-size:40rpx;font-weight:bold;display:block;'>COLLECTION</h>
+        <p style="font-size:25rpx;">Collection,the best memory</p>
+      </rich-text>
+    </view>
+    <view class="BOX_size" animation="{{Blow_animationData}}">
+      <view style="width:100%;height:300rpx;">   
+        <image class='Img_size' src='{{Blow_url}}'></image>
+      </view>
+      <view style="width:100rpx;height:100rpx;background:#009;margin:-250rpx auto">
+        <rich-text>
+          <h style='font-size:40rpx;font-weight:bold;display:block;color:#FFF;tetx-align:center'>照片</h>
+          <p style="font-size:28rpx;color:#FFF;margin-left:-13rpx;">PHOTO</p>
+        </rich-text>
+      </view>
+    </view>
+    <view class="BOX_size" animation="{{Bread_animationData}}"bindtap="ToPage">
+      <view style="width:100%;height:300rpx;">   
+        <image class='Img_size' src='{{Bread_url}}'></image>
+      </view>
+      <view style="width:100rpx;height:100rpx;margin:-250rpx auto" >
+        <rich-text>
+          <h style='font-size:40rpx;font-weight:bold;display:block;color:#FFF;tetx-align:center'>推文</h>
+          <p style="font-size:28rpx;color:#FFF;margin-left:-13rpx;">TWEETS</p>
+        </rich-text>
+      </view>
+    </view>
+    <view class="BOX_size" animation="{{Travel_animationData}}">
+      <view style="width:100%;height:300rpx;">   
+        <image class='Img_size' src='{{ZaWu_url}}'></image>
+      </view>
+      <view style="width:100rpx;height:100rpx;margin:-250rpx auto">
+        <rich-text>
+          <h style='font-size:40rpx;font-weight:bold;display:block;color:#FFF;tetx-align:center'>游记</h>
+          <p style="font-size:28rpx;color:#FFF;margin-left:-13rpx;">TRAVEL</p>
+        </rich-text>
+      </view>
+      <view style='margin-top:450rpx;'>
+        <text style="font-size:25rpx;color:#a49e9e">收藏于今天</text>
+      </view>
+    </view>
+</scroll-view>

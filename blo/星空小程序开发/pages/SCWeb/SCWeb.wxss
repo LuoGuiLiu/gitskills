@@ -1,0 +1,15 @@
+/* pages/SCWeb/SCWeb.wxss */
+.BOX_size{
+  width:100%;
+  height:300rpx;
+  margin-top:2%;
+  margin-left:-750rpx;
+}
+.BOX_size:first{
+  margin-top:0;
+}
+.Img_size{
+  width:100%;
+  height:100%;
+  background-size: cover;
+}

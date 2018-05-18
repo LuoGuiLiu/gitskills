@@ -1,0 +1,19 @@
+/* pages/Fastival/Fastival.wxss */
+.IMG_size{
+  width:100%;
+  height:100%;
+  margin-top:15rpx;
+  
+  background-size:cover;
+}
+.picker{
+  font-size:25rpx;
+  color:#fff;
+  margin-top:-25rpx;
+  margin-left:90rpx;
+}
+.IMGCover{
+  width:100%;
+  height:100%;
+  background-size: cover;
+}

@@ -1,0 +1,42 @@
+/* pages/shoucang/shoucang.wxss */
+
+.Box_size{
+  position: relative;
+  width:100%;
+  height:550rpx;
+  box-shadow: -8rpx 8rpx 20rpx #ccc;
+  margin-top:2%;
+  margin-left:750rpx;  
+}
+.Box_size:first-child{
+  margin-top:0;
+}
+
+.area{
+  
+  width:100%;
+  height:350rpx;
+}
+.imgCover{
+  width:100%;
+  height:100%;
+  background-size:cover;
+}
+.Head{
+  display: block;
+  font-family:'微软';
+  font-size:35rpx;
+  font-weight:bold;
+ 
+}
+.Text{
+  display: block;
+  margin-top:10rpx;
+  font-family:'微软';
+  font-size:25rpx;
+  color:#a49e9e;
+}
+.Texmar{
+display: block;
+ margin-left:5%;
+}
